@@ -1,0 +1,10 @@
+{
+  "icon": {
+    "link": "#",
+    "imagePath": ""
+  },
+  "content": [
+    { "text": "Inicio", "link": "#" },
+    { "text": "Proyectos", "link": "#" }
+  ]
+}
