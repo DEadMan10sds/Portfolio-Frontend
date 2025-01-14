@@ -1,3 +1,6 @@
+import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+
 //Styles
 const LinkClassesDesktop =
   "text-muted-foreground hover:text-foreground flex  items-center justify-middle gap-1";
@@ -6,13 +9,15 @@ const LinkClassesMobile =
 
 //Links dynamically created
 const NavBarLinks = ({ desktopLinks = false, icon = false, content = [] }) => {
+  const { t } = useTranslation();
+
   return content.map((item) => (
-    <a
+    <Link
       key={item.text + `${desktopLinks && "Desktop"}`}
-      href={item.link}
+      to={item.link}
       className={desktopLinks ? LinkClassesDesktop : LinkClassesMobile}
     >
-      {item.text}
+      {t(item.text)}
       {icon && (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +31,7 @@ const NavBarLinks = ({ desktopLinks = false, icon = false, content = [] }) => {
           />
         </svg>
       )}
-    </a>
+    </Link>
   ));
 };
 

@@ -4,7 +4,8 @@
     "imagePath": ""
   },
   "content": [
-    { "text": "Inicio", "link": "#" },
-    { "text": "Proyectos", "link": "#" }
-  ]
+    { "text": "navbar.home", "link": "/" },
+    { "text": "navbar.proyects", "link": "/projects" }
+  ],
+  "languages": ["es", "en"]
 }

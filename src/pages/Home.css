@@ -1,0 +1,13 @@
+.separator-color {
+  color: white;
+}
+
+.brdr {
+  border: solid #f1f1f1 1px;
+  border-radius: 50px;
+}
+
+.section-title {
+  white-space: nowrap;
+  font-size: 2rem;
+}

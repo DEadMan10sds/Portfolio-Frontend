@@ -1,0 +1,13 @@
+{
+  "navbar": {
+    "home": "Home",
+    "proyects": "Proyects"
+  },
+  "profile": {
+    "career": "Intelligent Systems Engineer"
+  },
+  "languages": {
+    "es": "Spanish",
+    "en": "English"
+  }
+}

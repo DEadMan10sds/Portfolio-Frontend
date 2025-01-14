@@ -1,0 +1,13 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "proyects": "Proyectos"
+  },
+  "profile": {
+    "career": "Ingeniero en Sistemas Inteligentes"
+  },
+  "languages": {
+    "es": "Español",
+    "en": "Inglés"
+  }
+}

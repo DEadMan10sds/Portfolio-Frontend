@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 
 const GeneralLayout = () => {
   return (
-    <main className="relative px-4 pb-20 before:bg-gradient-to-b before:from-[#020617] before:via-[#020617] before:-z-10 before:inset-0 before:to-[#000c3b] before:size-full before:absolute border-b inset-0 m-auto">
+    <main className="min-h-screen relative px-4 pb-20 before:bg-gradient-to-b before:from-[#020617] before:via-[#020617] before:-z-10 before:inset-0 before:to-[#000c3b] before:size-full before:absolute border-b inset-0 m-auto">
       <Meteors />
       <Stars />
       <div className="lg:flex lg:flex-col lg:items-center ">

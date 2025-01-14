@@ -12,6 +12,7 @@ import NavbarData from "../../texts/navbar.json";
 import socialLinks from "../../texts/social.json";
 import logoIcon from "../../assets/logo.jpeg";
 import NavBarLinks from "./NavBarLinks";
+import LanguageSelector from "../languageSelector/languageSelector";
 
 //Main component
 const Navbar = () => {
@@ -24,6 +25,7 @@ const Navbar = () => {
         </div>
         <div className="flex gap-6">
           <NavBarLinks desktopLinks icon content={socialLinks.content} />
+          <LanguageSelector />
         </div>
       </nav>
       <Sheet>
@@ -46,6 +48,7 @@ const Navbar = () => {
             <NavbarIcon icon={logoIcon} />
             <NavBarLinks content={NavbarData.content} />
             <NavBarLinks content={socialLinks.content} icon />
+            <LanguageSelector />
           </nav>
         </SheetContent>
       </Sheet>
