@@ -8,7 +8,7 @@ const LinkClassesMobile =
   "text-muted-foreground transition-colors hover:text-foreground";
 
 //Links dynamically created
-const NavBarLinks = ({ desktopLinks = false, icon = false, content = [] }) => {
+const NavbarLinks = ({ desktopLinks = false, icon = false, content = [] }) => {
   const { t } = useTranslation();
 
   return content.map((item) => (
@@ -35,4 +35,4 @@ const NavBarLinks = ({ desktopLinks = false, icon = false, content = [] }) => {
   ));
 };
 
-export default NavBarLinks;
+export default NavbarLinks;

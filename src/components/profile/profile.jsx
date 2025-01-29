@@ -5,7 +5,6 @@ import {
   CardDescription,
   CardContent,
 } from "@/components/ui/card";
-import cardTitles from "../../texts/card.json";
 import "./profile.css";
 import { Label } from "@/components/ui/label";
 import { useTranslation } from "react-i18next";
@@ -33,7 +32,7 @@ const Profile = ({ profileData }) => {
       </CardHeader>
       <CardContent>
         <div className="grid gap-3">
-          <Label htmlFor="description">{cardTitles.descriptionTitle}</Label>
+          <Label htmlFor="description">{t("card.descriptionTitle")}</Label>
           <div id="description" className="mb-3">
             {profileData.description}
           </div>

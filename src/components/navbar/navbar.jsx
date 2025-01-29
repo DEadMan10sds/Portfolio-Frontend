@@ -7,12 +7,12 @@ import {
 } from "@/components/ui/sheet";
 import * as VisuallyHidden from "@radix-ui/react-visually-hidden";
 import { Button } from "@/components/ui/button";
-import NavbarIcon from "./navbarIcon";
+import NavbarIcon from "./NavbarIcon.jsx";
 import NavbarData from "../../texts/navbar.json";
 import socialLinks from "../../texts/social.json";
 import logoIcon from "../../assets/logo.jpeg";
-import NavBarLinks from "./NavBarLinks";
-import LanguageSelector from "../languageSelector/languageSelector";
+import LanguageSelector from "../LanguageSelector/LanguageSelector";
+import NavbarLinks from "./NavBarLinks.jsx";
 
 //Main component
 const Navbar = () => {
@@ -21,10 +21,10 @@ const Navbar = () => {
       <nav className="hidden text-lg max-w-[1200px] w-full md:flex md:items-center justify-between">
         <div className="flex gap-6">
           <NavbarIcon icon={logoIcon} />
-          <NavBarLinks desktopLinks content={NavbarData.content} />
+          <NavbarLinks desktopLinks content={NavbarData.content} />
         </div>
         <div className="flex gap-6">
-          <NavBarLinks desktopLinks icon content={socialLinks.content} />
+          <NavbarLinks desktopLinks icon content={socialLinks.content} />
           <LanguageSelector />
         </div>
       </nav>
@@ -46,8 +46,8 @@ const Navbar = () => {
           </VisuallyHidden.Root>
           <nav className="grid gap-6 text-left text-lg font-medium">
             <NavbarIcon icon={logoIcon} />
-            <NavBarLinks content={NavbarData.content} />
-            <NavBarLinks content={socialLinks.content} icon />
+            <NavbarLinks content={NavbarData.content} />
+            <NavbarLinks content={socialLinks.content} icon />
             <LanguageSelector />
           </nav>
         </SheetContent>

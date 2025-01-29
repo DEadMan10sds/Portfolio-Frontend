@@ -1,0 +1,3 @@
+.box {
+  will-change: transform; /* Helps with performance when applying animations */
+}

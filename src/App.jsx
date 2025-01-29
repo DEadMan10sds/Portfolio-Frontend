@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
-import GeneralLayout from "./layouts/general";
+import GeneralLayout from "./Layouts/General";
 import meData from "./texts/profile.json";
 import { ProjectsPage } from "./pages/Projects";
 

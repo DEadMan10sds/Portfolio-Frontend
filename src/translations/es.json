@@ -9,5 +9,14 @@
   "languages": {
     "es": "Español",
     "en": "Inglés"
+  },
+  "projects": {
+    "title": "Proyectos"
+  },
+  "jobs": {
+    "title": "Historial laboral"
+  },
+  "card": {
+    "descriptionTitle": "Descripción"
   }
 }
