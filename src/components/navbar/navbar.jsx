@@ -12,7 +12,7 @@ import NavbarData from "../../texts/navbar.json";
 import socialLinks from "../../texts/social.json";
 import logoIcon from "../../assets/logo.jpeg";
 import LanguageSelector from "../LanguageSelector/LanguageSelector";
-import NavbarLinks from "./NavBarLinks.jsx";
+import NavbarLinks from "./NavbarLinks.jsx";
 
 //Main component
 const Navbar = () => {
