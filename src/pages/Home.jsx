@@ -12,9 +12,9 @@ import { data } from "autoprefixer";
 const projects = [
   {
     title: "Título del proyecto",
-    img: "/profile.jpg",
+    img: "profile.jpg",
     status: true,
-    description: "Loem ipsum",
+    description: "Loem ipsum de cada proyecto",
   },
 ];
 
@@ -40,6 +40,7 @@ function Home() {
         <div className="lg:grid sm:grid-cols-1 lg:grid-cols-3 sm:gap-15 gap-8">
           {projects &&
             projects.map((project, index) => {
+              console.log(project);
               return (
                 <div
                   key={project.title}

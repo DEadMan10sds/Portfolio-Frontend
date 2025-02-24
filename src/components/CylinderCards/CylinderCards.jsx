@@ -52,7 +52,7 @@ const CylinderCards = ({ items = new Array(12).fill(1) }) => {
               <div>
                 <div className="flex flex-col gap-3 h-fit bg-black rounded-lg p-2">
                   <div className="flex flex-col gap-2">
-                    <img src={"/"} />
+                    <img src={"/profile.jpg"} />
                     <h1 className="font-bold text-white text-sm">Titulo</h1>
                   </div>
                   <div>
